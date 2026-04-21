@@ -1,8 +1,9 @@
 import express from 'express';
 import { createServer as createViteServer } from 'vite';
 import path from 'path';
+import fs from 'fs';
 import { fileURLToPath } from 'url';
-import fetch from 'node-fetch'; // I'll need to install this
+import fetch from 'node-fetch';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -10,6 +11,9 @@ const __dirname = path.dirname(__filename);
 async function startServer() {
   const app = express();
   const PORT = 3000;
+
+  // Dummy favicon to stop 404
+  app.get('/favicon.ico', (req, res) => res.status(204).end());
 
   // Refined Proxy for games
   app.get('/api/game-proxy', async (req, res) => {
@@ -32,8 +36,6 @@ async function startServer() {
         const parsedUrl = new URL(targetUrl);
         const baseUrl = `${parsedUrl.origin}${parsedUrl.pathname.endsWith('/') ? parsedUrl.pathname : path.dirname(parsedUrl.pathname) + '/'}`;
         
-        // This makes relative links point back to our proxy
-        // Note: We need to be careful with the trailing slash and how the browser resolves it
         const proxyBase = `/api/game-proxy?url=${encodeURIComponent(baseUrl)}`;
         const baseTag = `<base href="${proxyBase}">`;
         
@@ -48,10 +50,9 @@ async function startServer() {
         res.set('Content-Type', 'text/html');
         return res.send(body);
       } else {
-        // For assets like JS, CSS, images
         const buffer = await response.arrayBuffer();
         res.set('Content-Type', contentType);
-        res.set('Access-Control-Allow-Origin', '*'); // Help with CORS for sub-assets
+        res.set('Access-Control-Allow-Origin', '*');
         return res.send(Buffer.from(buffer));
       }
     } catch (error) {
@@ -63,9 +64,22 @@ async function startServer() {
   if (process.env.NODE_ENV !== 'production') {
     const vite = await createViteServer({
       server: { middlewareMode: true },
-      appType: 'spa',
+      appType: 'custom', // Switch to custom to handle HTML manually
     });
+    
     app.use(vite.middlewares);
+
+    app.get('*', async (req, res, next) => {
+      const url = req.originalUrl;
+      try {
+        let template = fs.readFileSync(path.resolve(__dirname, 'index.html'), 'utf-8');
+        template = await vite.transformIndexHtml(url, template);
+        res.status(200).set({ 'Content-Type': 'text/html' }).end(template);
+      } catch (e) {
+        vite.ssrFixStacktrace(e);
+        next(e);
+      }
+    });
   } else {
     app.use(express.static(path.join(__dirname, 'dist')));
     app.get('*', (req, res) => {
