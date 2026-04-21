@@ -1,0 +1,250 @@
+[
+  {
+    "id": "pizza-tower",
+    "title": "Pizza Tower",
+    "description": "A fast-paced 2D platformer inspired by the Wario Land series.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/pizza-tower/",
+    "thumbnail": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=60",
+    "category": "Action"
+  },
+  {
+    "id": "fnaf",
+    "title": "Five Nights at Freddy's",
+    "description": "Can you survive five nights at Freddy Fazbear's Pizza?",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/fnaf/",
+    "thumbnail": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&auto=format&fit=crop&q=60",
+    "category": "Horror"
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "description": "The perfect game for the armchair quarterback to prove a point.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/retro-bowl/",
+    "thumbnail": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop&q=60",
+    "category": "Sports"
+  },
+  {
+    "id": "1v1-lol",
+    "title": "1v1.LOL",
+    "description": "Build and fight to be the last one standing in this competitive shooter.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/1v1-lol/",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=60",
+    "category": "Action"
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "description": "The ultimate speed run game that will put your skills to the test.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/slope/",
+    "thumbnail": "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?w=800&auto=format&fit=crop&q=60",
+    "category": "Arcade"
+  },
+  {
+    "id": "drift-hunters",
+    "title": "Drift Hunters",
+    "description": "Fine-tune your car and drift into the sunset in this racing simulator.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/drift-hunters/",
+    "thumbnail": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=60",
+    "category": "Racing"
+  },
+  {
+    "id": "bitlife",
+    "title": "BitLife",
+    "description": "How will you live your bitlife? Will you try to make all the right choices?",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/bitlife/",
+    "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=60",
+    "category": "Simulation"
+  },
+  {
+    "id": "minecraft",
+    "title": "Minecraft Classic",
+    "description": "The original browser version of the block-building game.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/minecraft/",
+    "thumbnail": "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?w=800&auto=format&fit=crop&q=60",
+    "category": "Creative"
+  },
+  {
+    "id": "basket-random",
+    "title": "Basket Random",
+    "description": "Wacky basketball with random physics and fun levels.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/basket-random/",
+    "thumbnail": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&auto=format&fit=crop&q=60",
+    "category": "Sports"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "description": "Click the cookie, buy upgrades, and build your cookie empire.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/cookie-clicker/",
+    "thumbnail": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&auto=format&fit=crop&q=60",
+    "category": "Idle"
+  },
+  {
+    "id": "snow-rider-3d",
+    "title": "Snow Rider 3D",
+    "description": "Sled down the mountain and dodge obstacles in this high-speed 3D challenge.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/snow-rider-3d/",
+    "thumbnail": "https://images.unsplash.com/photo-1551698618-1fed5d978244?w=800&auto=format&fit=crop&q=60",
+    "category": "Arcade"
+  },
+  {
+    "id": "drive-mad",
+    "title": "Drive Mad",
+    "description": "A car game where you drive on a track filled with obstacles. Can you reach the finish line?",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/drive-mad/",
+    "thumbnail": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&auto=format&fit=crop&q=60",
+    "category": "Racing"
+  },
+  {
+    "id": "moto-x3m",
+    "title": "Moto X3M",
+    "description": "Extreme bike racing with crazy stunts and dangerous obstacles.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/moto-x3m/",
+    "thumbnail": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&auto=format&fit=crop&q=60",
+    "category": "Racing"
+  },
+  {
+    "id": "subway-surfers",
+    "title": "Subway Surfers",
+    "description": "Dodge trains and escape the inspector in this endless runner classic.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/subway-surfers/",
+    "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=60",
+    "category": "Arcade"
+  },
+  {
+    "id": "paper-io-2",
+    "title": "Paper.io 2",
+    "description": "Capture as much territory as possible and defeat other players.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/paper-io-2/",
+    "thumbnail": "https://images.unsplash.com/photo-1611996575749-79a3a250f948?w=800&auto=format&fit=crop&q=60",
+    "category": "IO"
+  },
+  {
+    "id": "hole-io",
+    "title": "Hole.io",
+    "description": "Consume everything in the city as a black hole and grow larger.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/hole-io/",
+    "thumbnail": "https://images.unsplash.com/photo-1506466010722-395ee2bef877?w=800&auto=format&fit=crop&q=60",
+    "category": "IO"
+  },
+  {
+    "id": "smash-karts",
+    "title": "Smash Karts",
+    "description": "Battle other karts in this 3D multiplayer arena shooter.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/smash-karts/",
+    "thumbnail": "https://images.unsplash.com/photo-1511886929837-354d827aae26?w=800&auto=format&fit=crop&q=60",
+    "category": "Action"
+  },
+  {
+    "id": "eggy-car",
+    "title": "Eggy Car",
+    "description": "Drive carefully and keep the egg in your car as long as possible.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/eggy-car/",
+    "thumbnail": "https://images.unsplash.com/photo-1589118949245-7d38baf380d6?w=800&auto=format&fit=crop&q=60",
+    "category": "Arcade"
+  },
+  {
+    "id": "ovo",
+    "title": "OvO",
+    "description": "A fast-paced platformer where you must use parkour skills to reach the end.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/ovo/",
+    "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=60",
+    "category": "Action"
+  },
+  {
+    "id": "vex-7",
+    "title": "Vex 7",
+    "description": "Parkour across deadly traps and reach the finish line in the latest Vex adventure.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/vex-7/",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=60",
+    "category": "Action"
+  },
+  {
+    "id": "jetpack-joyride",
+    "title": "Jetpack Joyride",
+    "description": "Blast off with Barry Steakfries and avoid lasers in this side-scrolling lab escape.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/jetpack-joyride/",
+    "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=60",
+    "category": "Arcade"
+  },
+  {
+    "id": "crossy-road",
+    "title": "Crossy Road",
+    "description": "Why did the chicken cross the road? To get to the other side of this endless hopper!",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/crossy-road/",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=60",
+    "category": "Arcade"
+  },
+  {
+    "id": "stickman-hook",
+    "title": "Stickman Hook",
+    "description": "Swing like a spider and reach the finish line with grace.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/stickman-hook/",
+    "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=60",
+    "category": "Arcade"
+  },
+  {
+    "id": "fireboy-and-watergirl",
+    "title": "Fireboy & Watergirl",
+    "description": "Work together to solve puzzles and escape the Forest Temple.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/fireboy-and-watergirl/",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&auto=format&fit=crop&q=60",
+    "category": "Puzzle"
+  },
+  {
+    "id": "monkey-mart",
+    "title": "Monkey Mart",
+    "description": "Build your own supermarket and serve customers in this idle management game.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/monkey-mart/",
+    "thumbnail": "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=800&auto=format&fit=crop&q=60",
+    "category": "Idle"
+  },
+  {
+    "id": "tunnel-rush",
+    "title": "Tunnel Rush",
+    "description": "Race through a colorful tunnel at high speeds and dodge obstacles.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/tunnel-rush/",
+    "thumbnail": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&auto=format&fit=crop&q=60",
+    "category": "Arcade"
+  },
+  {
+    "id": "geometry-dash",
+    "title": "Geometry Dash",
+    "description": "Jump and fly your way through danger in this rhythm-based action platformer.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/geometry-dash/",
+    "thumbnail": "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?w=800&auto=format&fit=crop&q=60",
+    "category": "Action"
+  },
+  {
+    "id": "temple-run-2",
+    "title": "Temple Run 2",
+    "description": "Navigate cliffs, zip lines, and mines to escape the Demon Monkey.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/temple-run-2/",
+    "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=60",
+    "category": "Arcade"
+  },
+  {
+    "id": "house-of-hazards",
+    "title": "House of Hazards",
+    "description": "Compete with friends to finish house chores while surviving household traps.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/house-of-hazards/",
+    "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=60",
+    "category": "Action"
+  },
+  {
+    "id": "getting-over-it",
+    "title": "Getting Over It",
+    "description": "A game about climbing a mountain with a hammer. High frustration guaranteed.",
+    "url": "/api/game-proxy?url=https://the-pizza-edition.github.io/g/getting-over-it/",
+    "thumbnail": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=60",
+    "category": "Action"
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "Join the numbers and get to the 2048 tile!",
+    "url": "/api/game-proxy?url=https://play2048.co/",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=60",
+    "category": "Puzzle"
+  }
+]
