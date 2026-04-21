@@ -64,15 +64,23 @@ async function startServer() {
   if (process.env.NODE_ENV !== 'production') {
     const vite = await createViteServer({
       server: { middlewareMode: true },
-      appType: 'custom', // Switch to custom to handle HTML manually
+      appType: 'custom',
+      root: process.cwd(), // Explicitly set root
     });
     
     app.use(vite.middlewares);
 
     app.get('*', async (req, res, next) => {
       const url = req.originalUrl;
+      
+      // If the request looks like an asset that should have been caught by Vite, 
+      // let it fall through instead of serving index.html
+      if (url.includes('.') && !url.includes('?')) {
+        return next();
+      }
+
       try {
-        let template = fs.readFileSync(path.resolve(__dirname, 'index.html'), 'utf-8');
+        let template = fs.readFileSync(path.resolve(process.cwd(), 'index.html'), 'utf-8');
         template = await vite.transformIndexHtml(url, template);
         res.status(200).set({ 'Content-Type': 'text/html' }).end(template);
       } catch (e) {
